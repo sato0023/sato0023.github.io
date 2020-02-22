@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment #3</title>
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+		<section id="html-forms" class="main-section">
+			<form action="somepage.php" method="get">
+				<div id="fn-container" class="form-elm">
+					<label for="FirstName">First name</label>
+					<input type="text" name="FirstName"  id="FirstName" required placeholder="Enter your first name here">
+				</div>
+				<div id="ln-container" class="form-elm">
+					<label for="LastName">Last Name</label>
+					<input type="text" name="LastName" id="LastName" required placeholder="Enter your last name here">
+				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" required value="example@gmail.com" readonly>
+				</div>
+				<div id="pass-container" class="form-elm">
+					<label for="pass">Password</label>
+					<input type="password" name="pass" id="pass" required>
+				</div>
+				<div id="sum-container" class="form-elm">
+					<label for="summary">Introductory Text</label>
+					<textarea name="summary" id="summary" placeholder="Enter summary here">
+						Text area
+					</textarea>
+				</div>
+				<label for="date">Birthday</label>
+					<input type="date" name="dte" id="date" required><br>
+				<div id="tel-container" class="form-elm">
+					<label for="tel">Mobile number</label>
+					<input type="tel" name="tel" id="tel" required placeholder="Ex. 000-123-4567" >
+				</div>
+				<div id="gender-container" class="form-elm">
+					<label for="gender">Gender:</label>
+					<select name="gender" id="gender">
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+						<option value="no=say">Prefer not to say</option>
+						<option value="male" selected>Male</option>
+					</select>
+				</div>
+				<br>
+				<fieldset>
+  					<legend>Mailing Address</legend>
+ 				 <div>
+    				<label for="address">Address</label>
+   					 <input id="address">
+				 </div>
+				 <div>
+				    <label for="city">City</label>
+				    <input id="city">
+				  </div>
+				<div id="og-container" class="form-elm">
+					<label for="province">Province</label>
+					<select id="province" name="province">
+						<optgroup label="province">
+							<option value="alberta">Alberta</option>
+							<option value="british_columbia">British Columbia</option>
+							<option value="saskatchewan">Saskatchewan</option>
+							<option value="manitoba">Manitoba</option>
+							<option value="ontario">Ontario</option>
+							<option value="quebec">Quebec</option>
+							<option value="new_brunswick">New Brunswick</option>
+							<option value="nova_scotia">Nova Scotia</option>
+							<option value="prince_edward_island">Prince Edward Island</option>
+							<option value="newfoundland_labrador">Newfoundland and Labrador</option>
+							<option value="yukon">Yukon</option>
+							<option value="quebec">Quebec</option>
+							<option value="northwest_territories">Northwest Territories</option>
+							<option value="nunavut">Nunavut</option>
+							<option value="other">Other</option>
+						</optgroup>
+					</select>
+				</div>
+					<label for="country">Country</label>
+					<select id="country" name="country">
+						<optgroup label="country">
+							<option value="canada">Canada</option>
+							<option value="other">Other</option>
+						</optgroup>
+					</select>
+				 <div>
+				    <label for="postal-code">Postal Code</label>
+				    <input id="postal-code">
+				 </div>
+				</fieldset>
+				<div id="hobbies-container" class="form-elm">
+					<h3>Hobbies:</h3>
+					<label for="fine_arts">Fine Arts</label>
+					<input type="checkbox" name="hobbies" id="fine_arts" value="fine_arts"> <br>
+					<label for="sports">Sports</label>
+					<input type="checkbox" name="hobbies" id="sports" value="sports"> <br>
+					<label for="knitting">Knitting</label>
+					<input type="checkbox" name="hobbies" id="knitting" value="knitting"> <br>
+					<label for="knife_throwing">
+						<input type="checkbox" name="hobbies" id="knife_throwing" value="knife_throwing" checked>
+						Knife Throwing
+					</label> <br>
+				</div>
+				<br>
+					<label for="ur">Enter a URL:</label>	
+					<input type="url" name="ur" id="ur" >
+					<p>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+					</p>
+			</form>
+		</section>
+	</div>
+</body>
+</html>
