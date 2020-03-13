@@ -1,0 +1,61 @@
+@charset "utf-8" ;
+
+
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #7cc576;
+  width:100%;
+
+}
+
+nav a {
+text-decoration: none;
+background-color: #6dcff6
+
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-image: url(../img/main-bg.png)
+
+}
+
+.main-content {
+
+  display: inline-block;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 0;
+}
+.side-bar {
+
+  display: inline-block;
+  width: 35%;
+  box-sizing: border-box;
+ 
+}
+.gallery {
+
+position: static;
+width: 100%;
+
+text-align: left;
+}
+
+.social-media {
+
+  display: inline-block;
+  margin: 0 20px;
+}
+footer {
+  background-color: #7cc576;
+  width:100%;
+
+}
