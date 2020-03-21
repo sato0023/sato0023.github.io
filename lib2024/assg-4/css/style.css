@@ -19,16 +19,20 @@ background-color: #6dcff6
 
 }
 
+
 body {
   margin: 0;
+}
+
+a {
+  display: block;
+  padding: 10px;
 }
 
 main {
   background-image: url(../img/main-bg.png)
 
 }
-
-
 
 .main-content {
 
