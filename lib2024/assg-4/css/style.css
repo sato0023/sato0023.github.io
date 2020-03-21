@@ -127,7 +127,7 @@ background-image: url(../img/main-bg.png)
 
   display: inline-block;
   float: right;
-  padding: 5px;
+  padding: 2px;
 }
 
 footer {
@@ -135,7 +135,7 @@ footer {
   background-color: #7cc576;
   width:100%;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 1px;
 }
 
   .desktop-nav {
