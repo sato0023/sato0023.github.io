@@ -143,6 +143,10 @@ footer {
     display: block;
   }
 
+  .desktop-nav ul {
+  width:100%;
+}
+
   .mobile-nav {
     display: none;
 }
