@@ -107,6 +107,24 @@ main {
   margin: 0;
 }
 
+  .desktop-nav {
+    display: block;
+  }
+
+.desktop-nav ul {
+  width:100%;
+}
+
+.desktop-nav li {
+  box-sizing: border-box;
+  width: 100%;
+  float: center;
+}
+
+  .mobile-nav {
+    display: none;
+}
+
 .side-bar {
 
   display: inline-block;
@@ -139,14 +157,3 @@ footer {
   padding: 1px;
 }
 
-  .desktop-nav {
-    display: block;
-  }
-
-  .desktop-nav ul {
-  width:100%;
-}
-
-  .mobile-nav {
-    display: none;
-}
