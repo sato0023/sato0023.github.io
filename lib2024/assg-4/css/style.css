@@ -33,9 +33,12 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  padding: 0;
 }
-ol, ul {
+ol, ul, li {
   list-style: none;
+  padding: 5px;
+
 }
 blockquote, q {
   quotes: none;
@@ -107,9 +110,10 @@ main {
   margin: 0;
 }
 
-  .desktop-nav {
+.desktop-nav {
     display: block;
-  }
+
+}
 
 .desktop-nav ul {
   width:100%;
