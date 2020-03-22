@@ -143,25 +143,6 @@ h3 {
   margin: 0 auto;
 }
 
-.desktop-nav {
-    display: block;
-
-}
-
-.desktop-nav ul {
-  width:100%;
-}
-
-.desktop-nav li {
-  box-sizing: border-box;
-  width: 100%;
-  float: center;
-}
-
-.mobile-nav {
-    display: none;
-}
-
 .side-bar {
 
   display: inline-block;
