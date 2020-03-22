@@ -96,6 +96,7 @@ nav div ul li a {
   margin: 15px 40px;
   text-align: center;
   float: left;
+  list-style-type: none;
   text-decoration: none;
   background-color: #6dcff6
 }
