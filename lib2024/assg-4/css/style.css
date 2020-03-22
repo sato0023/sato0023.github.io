@@ -156,10 +156,16 @@ h3 {
 .image-gallery .img-slide {
 
 width: 33%;
-padding: 10px;
+padding: 30px;
 box-sizing: border-box;
-float: right;
+float: left;
 background-image: url(../img/main-bg.png)
+margin: 0 auto;
+}
+
+.img-slide {
+
+text-align: center;
 }
 
 .social-media {
@@ -174,10 +180,10 @@ footer {
   background-color: #7cc576;
   width:100%;
   box-sizing: border-box;
-  padding: 12px;
+  padding: 20px;
   margin: 0 auto;
 }
 
 .copyright {
-padding: 20px;
+padding: 25px;
 }
