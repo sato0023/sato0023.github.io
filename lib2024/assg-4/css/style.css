@@ -77,6 +77,16 @@ html {
   margin: 0 auto;
 }
 
+.logo {
+  float: left;
+}
+
+.title {
+  padding: 50px;
+  float: left;
+  font-weight: bold;
+}
+
 header {
   background-color: #7cc576;
   width:100%;
