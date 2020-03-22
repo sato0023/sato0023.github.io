@@ -77,12 +77,12 @@ html {
 header {
   background-color: #7cc576;
   width:100%;
-  padding: 0px;
 
 }
 
-nav a {
-text-decoration: none;
+nav {
+width: 100%;
+overflow: hidden;
 background-color: #6dcff6
 
 }
@@ -91,7 +91,7 @@ body {
   margin: 0;
 }
 
-a {
+nav div ul, li, a {
   display: block;
   padding: 0px;
 }
