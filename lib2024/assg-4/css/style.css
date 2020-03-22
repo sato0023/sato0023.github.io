@@ -90,9 +90,10 @@ body {
   margin: 0;
 }
 
-nav div ul, li, a {
+nav div ul li a {
   display: block;
-  padding: 20px;
+  padding: 15px 20px;
+  margin: 15px 40px;
   text-align: center;
   float: left;
   text-decoration: none;
@@ -108,7 +109,7 @@ main {
 
   display: inline-block;
   width: 63%;
-  padding: 0px;
+  padding: 1px;
   box-sizing: border-box;
   margin: 0;
 }
