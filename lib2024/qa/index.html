@@ -2,10 +2,10 @@
 <html >
 <head>
 	<meta charset="utf-8">
-	<title>LIB2024 - QA - Yuli Sato</title>
+	<title>LIB2024 - QA</title>
 </head>
 <body>
-	<h1>LIB2024- QA</h1>
+	<h1>LIB2024- QA - Yuli Sato</h1>
 	<!-- Qus/Ans list begins -->
 	<ol>
 		<!-- Qus 1 -->
@@ -119,7 +119,15 @@
 				<strong>Qus:</strong> Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px. 
 			</p>
 			<p>
-				<strong>Ans:</strong> XYZ
+				<strong>Ans:</strong> }
+					.b4 {
+						position: fixed;
+						top:50%;
+						left: 50%;
+						z-index: 3;
+						margin-top: -200px;
+						margin-left: -200px;
+					}
 			</p>
 		</li>
 		<!-- Qus 13 -->
@@ -128,18 +136,30 @@
 				<strong>Qus:</strong> Create CSS keyframes block called "spin" that rotates an element.
 			</p>
 			<p>
-				<strong>Ans:</strong> XYZ
+				<strong>Ans:</strong> 
 			</p>
 		</li>
 		<!-- Qus 14 -->
 		<li>
 			<p>
 				<strong>Qus:</strong> Create CSS animation block to rotate an element that has the following properties : 
-			- class "rotate-me"
-			- It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin" 
+			<br>- class "rotate-me"
+			<br>- It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin" 
 			</p>
 			<p>
-				<strong>Ans:</strong> XYZ
+				<strong>Ans:</strong> 			
+				.loader {
+				animation: 
+				spin 0.5s linear infinite,
+				}
+					@keyframes spin {
+					from {
+						transform: rotate (0deg);
+				}
+				to {
+					transform: rotate (360deg);
+				}
+			}
 			</p>
 		</li>
 		<!-- Qus 15 -->
@@ -148,7 +168,8 @@
 				<strong>Qus:</strong> How would you include create an alert with string "I love JavaScript" using JavaScript?
 			</p>
 			<p>
-				<strong>Ans:</strong> XYZ
+				<strong>Ans:</strong> 
+				<br>alert("I love Javascript");
 			</p>
 		</li>
   </ol>
