@@ -113,67 +113,87 @@
 				
 
 				<div class="col-25" id="name-container">
-					<label>Name</label>
+					<label for="name">Name</label>
 				</div>
 				<div class="col-75" id="name-container">
 					<input type="text" name="name" id="name">
 				</div>
 
+
 				<div class="col-25" id="email-container">
-					<label>Email</label>
+					<label for="email">Email</label>
 				</div>
 				<div class="col-75" id="email-container">
 					<input type="email" required name="email" id="email">
 				</div>
 
- <!-- // make them the same, except for the province (use select and option) // -->
 
 				<div class="col-25" id="address-container">
-					<label>Address</label>
+					<label for="address">Address</label>
 				</div>
 				<div class="col-75" id="address-container">
-					<input type="text" required name="address-form" id="email">
+					<input type="text" required name="address-form" id="address">
 				</div>
 
 
+				<div class="col-25" id="city-container">
+					<label for="city">City</label>
+				</div>
+				<div class="col-75" id="city-container">
+					<input type="text" required name="city" id="city">
+				</div>
 
-					<label>City</label>
-						<input type="city" required name="city" id="city">
 
+				<div class="col-25" id="dropdown-container">
+					<label for="province">Province</label>
+				</div>
+				<div class="col-75" id="dropdown-container">
+					<select name="province" id="province">
+						<option value="ON">Ontario</option>
+						<option value="ON">Ontario</option>
+						<option value="ON">Ontario</option>
+						<option value="ON">Ontario</option>
+						<option value="ON">Ontario</option>
+						<option value="ON">Ontario</option>
+						<option value="ON">Ontario</option>
+					</select>
+				</div>
 
-
-					<label>Postal Code</label>
-						<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="pc" id="pc" placeholder="A0A 0A0">
-					
-<!-- everything in divs except the button -->
-					<button type="submit">Submit</button>
-		</form>
-	</section>
-
-	<section id="results" class="results">
+				<div class="col-25" id="postal-code-container">
+					<label for="postal-code">Postal Code</label>
+				</div>
+				<div class="col-75" id="postal-code-container">
+					<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="postal-code" id="postal-code" placeholder="A0A 0A0">
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+		<section id="results" class="results">
 		<h2>PROFILE INFO</h2>
 		<div id="results">
+			<i class="far fa-user-circle"></i>
 			<p>Name: <span id="name_result"></span></p>
 			<p>Email: <a href="#" id="email_result"></a></p>
 			<p>Address: <a href="#" id="address_result"></a></p>
 			<p>City: <a href="#" id="city_result"></a>
-			<p >Postal Code: <span id="pc_result"></span></p>
+			<p>Postal Code: <span id="pc_result"></span></p>
+			<i class="far fa-envelope"></i>
 		</div>
 	</section>
-	</main>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="scripts/form_validation.js"></script>
-	<footer class="footer clearfix" id="footer">
-		<div class="quick-links">QUICK LINKS
-				<p><a href="https://twitter.com/">SCHEDULE</a></p>
-				<p><a href="https://twitter.com/">ABOUT</a></p>
-				<p><a href="https://twitter.com/">PORTFOLIO</a></p>
-				<p><a href="https://twitter.com/">CONTACT</a></p>
+</main>
+	
+
+	<footer>
+		<div class="quick-links clearfix"><h2>QUICK LINKS</h2>
+				<p><a href="#">SCHEDULE</a></p>
+				<p><a href="#">ABOUT</a></p>
+				<p><a href="#">PORTFOLIO</a></p>
+				<p><a href="#">CONTACT</a></p>
 		</div>
 
 
 
-		<div class="follow-us">
+		<div class="follow-us clearfix">
 			<h2>FOLLOW US</h2> 
 			<i class="fab fa-facebook"></i>
 			<i class="fab fa-youtube"></i>
@@ -182,11 +202,17 @@
 
 
 
-		<div class="address">ADDRESS
-			<p>1385 Woodroofe Ave. </p>
+		<div class="address">
+			<h2>ADDRESS</h2>
+			<p>1385 Woodroofe Ave.</p>
 			<p>Nepean, ON K2G 1V8</p>
 			<p>Canada</p>
 		</div>
 	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/form_validation.js"></script>
+
+
 </body>
 </html>
