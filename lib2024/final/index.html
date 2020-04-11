@@ -8,7 +8,7 @@
 <body>
 	<header>
 		<div class="logo">
-		<h1>THE LOGO</h1>
+		<h1>The Darkroom</h1>
 		</div>
 		<div class="nav">
 			<nav>
@@ -28,8 +28,9 @@
 		<section class="main-content clearfix">
 			<article class="main-content">
 				<h2>ABOUT</h2>
-				<p>"The term Camera Obscura in Latin means "dark room". Leonardo da Vinci put the word of Camera Obscura as his writing record in the century 14th. After Louis Daguerre invented the daguerreotype process and it developed to the darkroom as worked in the tent or dark room to develop the film and papers processing in the 18 century.</p>
-				<p>"The term Camera Obscura in Latin means "dark room". Leonardo da Vinci put the word of Camera Obscura as his writing record in the century 14th. After Louis Daguerre invented the daguerreotype process and it developed to the darkroom as worked in the tent or dark room to develop the film and papers processing in the 18 century.</p>
+				<p>"Pictures from non-digital cameras must be developed, and that takes specialized equipment, light-sensitive processes and a darkroom. Darkrooms are special rooms where photographers use different lighting to process images. For example, a darkroom can use red light so that the light-sensitive paper they use to develop photographs does not become overexposed.</p>
+				<br>
+				<p>Peering into a darkroom, you will notice a lot of specialized equipment. That’s because developing film requires cutting the film into negatives, which are then projected onto special photographic paper using light and chemicals. That’s an oversimplification of the process, and if you’re investigating how to build your own darkroom, this information is probably nothing you haven’t heard before. You have your camera, your film and your art – now it’s time to get that darkroom.</p>
 			</article>
 		</section>
 		<section class="side-bar">
@@ -124,7 +125,7 @@
 					<label for="address">Address</label>
 				</div>
 				<div class="col-75" id="address-container">
-					<input type="text" required name="address-form" id="address">
+					<input type="text" required name="address" id="address">
 				</div>
 
 
@@ -141,13 +142,16 @@
 				</div>
 				<div class="col-75" id="dropdown-container">
 					<select name="province" id="province">
-						<option value="ON">Ontario</option>
-						<option value="QC">Quebec</option>
-						<option value="SK">Saskatchewan</option>
-						<option value="MB">Manitoba</option>
-						<option value="AB">Alberta</option>
-						<option value="ON">Saskatchewan</option>
-						<option value="ON">East Coast</option>
+						<option value="ON,">Ontario</option>
+						<option value="QC,">Quebec</option>
+						<option value="SK,">Saskatchewan</option>
+						<option value="MB,">Manitoba</option>
+						<option value="AB,">Alberta</option>
+						<option value="BC,">British Columbia</option>
+						<option value="NS,">Nova Scotia</option>
+						<option value="NB,">New Brunswick</option>
+						<option value="PEI,">Prince Edward Island</option>
+						<option value="NFLD,">Newfoundland</option>
 					</select>
 				</div>
 
@@ -166,11 +170,11 @@
 		<h2>PROFILE INFO</h2>
 		<div id="results">
 			<i class="far fa-user-circle"></i>
-			<p>Name: <span id="name_result"></span></p>
-			<p>Email: <a href="#" id="email_result"></a></p>
-			<p>Address: <span id="address_result">
+			<p><!-- Name: --> <span id="name_result"></span></p>
+			<p><!-- Email: --> <a href="#" id="email_result"></a></p>
+			<p><!-- Address: --> <span id="address_result">
 				<span id="city_result"></span></p>
-			<p>Province: <span id="province_result"></span> </p><p>Postal Code: <span id="postal-code_result"></span></p>
+			<p><!-- Province: --> <span id="province_result"></span> <!-- Postal Code: --> <span id="postal-code_result"></span></p>
 			<i class="far fa-envelope"></i>
 		</div>
 	</section>

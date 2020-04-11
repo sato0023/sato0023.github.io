@@ -55,6 +55,7 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+
 }
 
 /*CSS clearfix - if you have floating elements inside, you require CSS clearfix so it displays properly*/
@@ -102,19 +103,27 @@ nav a {
   text-decoration: none;
   padding: 25px 35px;
 
+
 }
 
 main {
   background-image: url(../img/floor-tile.png);
   font-family: 'Muli', sans-serif;
+  padding-left: 30px;
+
+}
+
+.table-container {
+  padding: 5px;
 
 }
 
 h1 {
   font-family: 'abhaya_libreregular';
-  font-size: 40px;
+  font-size: 30px;
   color: #aec0d3;
-    padding: 20px;
+  padding: 20px;
+  font-weight: bold;
 
 } 
 
@@ -139,16 +148,20 @@ h3 {
   box-sizing: border-box;
   width: 60%;
   float: left;
+  padding: 5px;
 
+}
 
-
+.main-content p {
+  width: 160%;
+  padding: 5px;
 }
 
 .side-image {
   float: left;
   box-sizing: border-box;
   width: 40%;
-  padding: 30px;
+  padding: 45px;
  
 }
 
@@ -164,7 +177,7 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #aec0d3;
+  background-color: #d5dee7;
 
 }
 
@@ -177,7 +190,7 @@ table {
   width: 50%;
   box-sizing: border-box;
   float: left;
-
+  background-image: url(../img/floor-tile.png);
 
 }
 
@@ -192,24 +205,29 @@ table {
   width: 75%;
 }
 
-form {
-  padding-left: 2em;
-    background-image: url(../img/floor-tile.png);
-
+form div {
+  padding-bottom: 1em;
 
 }
 
-form div {
-  padding-bottom: 1em;
+.results h2 {
+  text-align: left;
 }
 
 .results {
   width: 50%;
   box-sizing: border-box;
   float: left;
-    background-image: url(../img/floor-tile.png);
-    padding-bottom: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  background-image: url(../img/floor-tile.png);
 
+}
+
+#name_result {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .fa-user-circle {
@@ -240,21 +258,21 @@ footer {
   width: 33.33%;
   box-sizing: border-box;
   float: left;
-  padding: 2em 3em;
+  padding: 2em 5em;
 }
 
 .quick-links a {
 
   text-decoration: none;
   color: black;
+  padding: 10px;
 
 }
 
 .quick-links li {
 
-  padding: 1em;
+  padding: 2em;
 }
-
 
 .overlay-container {
   display: none;
