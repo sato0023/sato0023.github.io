@@ -207,7 +207,7 @@ table {
 
 form div {
   padding-bottom: 1em;
-
+  
 }
 
 .results h2 {
@@ -226,7 +226,7 @@ form div {
 
 #name_result {
   color: black;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -237,7 +237,7 @@ form div {
 
 .fa-envelope {
   color: ;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 footer {
