@@ -26,13 +26,11 @@
 	</header>
 	<main>	
 		<section class="main-content clearfix">
-			<article class="main-content">
 				<h2>ABOUT</h2>
 				<p>"Pictures from non-digital cameras must be developed, and that takes specialized equipment, light-sensitive processes and a darkroom. Darkrooms are special rooms where photographers use different lighting to process images. For example, a darkroom can use red light so that the light-sensitive paper they use to develop photographs does not become overexposed.</p>
 				<br>
 				<p>Peering into a darkroom, you will notice a lot of specialized equipment. That’s because developing film requires cutting the film into negatives, which are then projected onto special photographic paper using light and chemicals. That’s an oversimplification of the process, and if you’re investigating how to build your own darkroom, this information is probably nothing you haven’t heard before. You have your camera, your film and your art – now it’s time to get that darkroom..."</p>
 				<p>Join our workshops below!</p>
-			</article>
 		</section>
 		<section class="side-bar">
 			<div class="side-image">
@@ -49,7 +47,7 @@
 	
 		<section class="table-container">
 			<div class="heading-schedule">
-				<h2>SCHEDULE</h2>
+				<p><h2>SCHEDULE</h2></p>
 			</div>
 			<div class="table">
 				<table>
@@ -95,117 +93,111 @@
 				    </tr>
 				</table>
 			</div>
-		</article>
-	</section>
-	
-
-
-	<section class="form-container clearfix">
-		<form id="form" action="submit.php" method="post">
-			<h2>EDIT PROFILE</h2>
-			<form action="submit.php" method="post">
-				
-
-				<div class="col-25" id="name-container">
-					<label for="name">Name</label>
-				</div>
-				<div class="col-75" id="name-container">
-					<input type="text" name="name" id="name">
-				</div>
-
-
-				<div class="col-25" id="email-container">
-					<label for="email">Email</label>
-				</div>
-				<div class="col-75" id="email-container">
-					<input type="email" required name="email" id="email">
-				</div>
-
-
-				<div class="col-25" id="address-container">
-					<label for="address">Address</label>
-				</div>
-				<div class="col-75" id="address-container">
-					<input type="text" required name="address" id="address">
-				</div>
-
-
-				<div class="col-25" id="city-container">
-					<label for="city">City</label>
-				</div>
-				<div class="col-75" id="city-container">
-					<input type="text" required name="city" id="city">
-				</div>
-
-
-				<div class="col-25" id="dropdown-container">
-					<label for="province">Province</label>
-				</div>
-				<div class="col-75" id="dropdown-container">
-					<select name="province" id="province">
-						<option value="ON,">Ontario</option>
-						<option value="QC,">Quebec</option>
-						<option value="SK,">Saskatchewan</option>
-						<option value="MB,">Manitoba</option>
-						<option value="AB,">Alberta</option>
-						<option value="BC,">British Columbia</option>
-						<option value="NS,">Nova Scotia</option>
-						<option value="NB,">New Brunswick</option>
-						<option value="PEI,">Prince Edward Island</option>
-						<option value="NFLD,">Newfoundland</option>
-					</select>
-				</div>
-
-				<div class="col-25" id="postal-code-container">
-					<label for="postal-code">Postal Code</label>
-				</div>
-				<div class="col-75" id="postal-code-container">
-					<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="postal-code" id="postal-code" placeholder="A0A 0A0">
-				</div>
-				
-				<button type="submit">Submit</button>
-			
-			</form>
 		</section>
-		<section id="results" class="results">
-		<h2>PROFILE INFO</h2>
-		<div id="results">
-			<i class="far fa-user-circle"></i>
-			<p><!-- Name: --> <span id="name_result"></span></p>
-			<p><!-- Email: --> <a href="#" id="email_result"></a></p>
-			<p><!-- Address: --> <span id="address_result">
-				<span id="city_result"></span></p>
-			<p><!-- Province: --> <span id="province_result"></span> <!-- Postal Code: --> <span id="postal-code_result"></span></p>
-			<i class="far fa-envelope"></i>
+
+		<section class="form-container clearfix">
+			<form id="form" action="submit.php" method="post">
+				<h2>EDIT PROFILE</h2>
+				<form action="submit.php" method="post">
+					
+
+					<div class="col-25" id="name-container">
+						<label for="name">Name</label>
+					</div>
+					<div class="col-75">
+						<input type="text" name="name" id="name">
+					</div>
+
+
+					<div class="col-25" id="email-container">
+						<label for="email">Email</label>
+					</div>
+					<div class="col-75" id="email-container">
+						<input type="email" required name="email" id="email">
+					</div>
+
+
+					<div class="col-25" id="address-container">
+						<label for="address">Address</label>
+					</div>
+					<div class="col-75" id="address-container">
+						<input type="text" required name="address" id="address">
+					</div>
+
+
+					<div class="col-25" id="city-container">
+						<label for="city">City</label>
+					</div>
+					<div class="col-75" id="city-container">
+						<input type="text" required name="city" id="city">
+					</div>
+
+
+					<div class="col-25" id="dropdown-container">
+						<label for="province">Province</label>
+					</div>
+					<div class="col-75" id="dropdown-container">
+						<select name="province" id="province">
+							<option value="ON,">Ontario</option>
+							<option value="QC,">Quebec</option>
+							<option value="SK,">Saskatchewan</option>
+							<option value="MB,">Manitoba</option>
+							<option value="AB,">Alberta</option>
+							<option value="BC,">British Columbia</option>
+							<option value="NS,">Nova Scotia</option>
+							<option value="NB,">New Brunswick</option>
+							<option value="PEI,">Prince Edward Island</option>
+							<option value="NFLD,">Newfoundland</option>
+						</select>
+					</div>
+
+					<div class="col-25" id="postal-code-container">
+						<label for="postal-code">Postal Code</label>
+					</div>
+					<div class="col-75" id="postal-code-container">
+						<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="postal-code" id="postal-code" placeholder="A0A 0A0">
+					</div>
+					
+					<button type="submit">Submit</button>
+				
+				</form>
+			</section>
+			<section id="results" class="results">
+			<h2>PROFILE INFO</h2>
+			<div id="results">
+				<i class="far fa-user-circle"></i>
+				<p>Name: <span id="name_result"></span></p>
+				<p>Email: <a href="#" id="email_result"></a></p>
+				<p>Address: <span id="address_result">
+					<span id="city_result"></span></p>
+				<p><!-- Province: --> <span id="province_result"></span> <!-- Postal Code: --> <span id="postal-code_result"></span></p>
+				<i class="far fa-envelope"></i>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="quick-links clearfix"><h3>QUICK LINKS</h3>
+			<p><a href="#">SCHEDULE</a></p>
+			<p><a href="#">ABOUT</a></p>
+			<p><a href="#">PORTFOLIO</a></p>
+			<p><a href="#">CONTACT</a></p>
 		</div>
-	</section>
-</main>
-<footer>
-	<div class="quick-links clearfix"><h3>QUICK LINKS</h3>
-		<p><a href="#">SCHEDULE</a></p>
-		<p><a href="#">ABOUT</a></p>
-		<p><a href="#">PORTFOLIO</a></p>
-		<p><a href="#">CONTACT</a></p>
-	</div>
 
-	<div class="follow-us clearfix">
-		<h3>FOLLOW US</h3> 
-		<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-		<a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
-		<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-	</div>
+		<div class="follow-us clearfix">
+			<h3>FOLLOW US</h3> 
+			<a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+			<a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+			<a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+		</div>
 
-	<div class="address">
-		<h3>ADDRESS</h3>
-		<p>1385 Woodroofe Ave.</p>
-		<p>Nepean, ON K2G 1V8</p>
-		<p>Canada</p>
-	</div>
-</footer>
-
+		<div class="address">
+			<h3>ADDRESS</h3>
+			<p>1385 Woodroofe Ave.</p>
+			<p>Nepean, ON K2G 1V8</p>
+			<p>Canada</p>
+		</div>
+	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
-
-
 </body>
 </html>
