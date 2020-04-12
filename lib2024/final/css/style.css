@@ -37,6 +37,7 @@ body {
   line-height: 1;
   padding: 0;
 
+
 }
 ol, ul, li {
   list-style-type: none;
@@ -76,6 +77,7 @@ html {
   max-width: 1024px;
   margin: 0 auto;
 
+
 }
 /*
 header {
@@ -93,7 +95,8 @@ header {
 nav {
   width: 100%;
   background-color: #aec0d3;
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 
 }
 
@@ -107,8 +110,8 @@ nav a {
 }
 
 main {
-  background-image: url(../img/floor-tile.png);
-  font-family: 'Muli', sans-serif;
+ background-image: url(../img/floor-tile.png);
+ font-family: 'Muli', sans-serif;
 
 }
 
@@ -149,11 +152,13 @@ h3 {
   float: left;
   padding: 5px;
 
+
 }
 
 .main-content p {
    padding-bottom: 1em;
    padding-left: 1em;
+
 }
 
 .side-image {
@@ -189,18 +194,14 @@ tr:nth-child(even) {
   background-color: #d5dee7;
 
 }
-/*
-table {
- background-color: white;
 
-}*/
 
 .form-container {
   width: 50%;
   box-sizing: border-box;
   float: left;
-  /*background-image: url(../img/floor-tile.png);*/
-
+/*  background-image: url(../img/floor-tile.png);
+*/
 }
 
 .col-25 {
@@ -229,8 +230,8 @@ form div {
   float: left;
   padding-bottom: 2em;
   text-align: center;
-  /*background-image: url(../img/floor-tile.png);*/
-
+/*  background-image: url(../img/floor-tile.png);
+*/
 }
 div#results {
   border-radius: 5px;
@@ -286,19 +287,43 @@ footer {
   box-sizing: border-box;
   float: left;
   padding: 2em 5em;
+    font-size: 14px;
+
 }
 
 .quick-links a {
 
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 1em;
+
 
 }
 
 .quick-links li {
 
   padding: 2em;
+}
+
+
+.quick-links p {
+
+  padding: 8px;
+  padding-top: 10px;
+
+}
+
+.follow-us i {
+
+  padding: 2px;
+  padding-top: 25px;
+  font-size: 40px;
+}
+
+.follow-us {
+    text-align: center;
+    padding-bottom: 3em
+
 }
 
 .overlay-container {
@@ -310,6 +335,13 @@ footer {
   top: 0;
   z-index: 2;
  
+ }
+
+ .address p {
+
+  padding: 6px;
+  padding-top: 10px;
+
  }
 
 .loader {
