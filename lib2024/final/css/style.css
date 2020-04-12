@@ -111,6 +111,7 @@ nav a {
 
 main {
  background-image: url(../img/floor-tile.png);
+ background-image; background-repeat;
  font-family: 'Muli', sans-serif;
 
 }
@@ -230,6 +231,7 @@ form div {
   float: left;
   padding-bottom: 2em;
   text-align: center;
+/*  background-color: #f2f2f2;*/
 /*  background-image: url(../img/floor-tile.png);
 */
 }
