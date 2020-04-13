@@ -115,7 +115,7 @@ main {
 .main-content {
   width: 60%;
   box-sizing: border-box;
-  height: auto;
+/*  height: auto;*/
   padding-left: 3em;
   padding-top: 1em;
 
@@ -126,18 +126,26 @@ main {
 
 }
 
-.side-image {
+/*.side-image {  
+
+
   float: left;
   box-sizing: border-box;
-  width: 40%;
+  width: 33%;
   padding-top: 3em;
   padding-left:1em;
   padding-bottom: 3em;
-/*  height: auto;*/
  
+}*/
+
+aside {
+
+  width: 33%;
+  float: right;
+  padding-top: 3em;
+  padding-right: 2em;
+/*  height: auto;*/
 }
-
-
 
 .table-container {
   padding: 0 3em 2em;
