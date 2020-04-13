@@ -210,6 +210,7 @@ tr:nth-child(even) {
   width: 50%;
   box-sizing: border-box;
   float: left;
+  padding-left: 3em;
 /*  background-image: url(../img/floor-tile.png);
 */
 }
@@ -227,6 +228,7 @@ tr:nth-child(even) {
 
 form div {
   padding-bottom: 1em;
+
   
 }
 
@@ -246,7 +248,7 @@ form div {
 div#results {
   border-radius: 5px;
 /*  background-color: #f2f2f2;*/
-  padding: 20px;
+  padding: 15px;
   max-width: 500px;
   margin: 0 auto;
 }
