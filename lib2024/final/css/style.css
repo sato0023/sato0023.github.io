@@ -39,6 +39,13 @@ body {
 
 
 }
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+
 ol, ul, li {
   list-style-type: none;
 
@@ -152,6 +159,7 @@ h3 {
   width: 60%;
   float: left;
   padding: 5px;
+  height: auto;
 
 
 }
@@ -169,6 +177,7 @@ h3 {
   padding-top: 3em;
   padding-left:1em;
   padding-bottom: 3em;
+  height: auto;
  
 }
 
