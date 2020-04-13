@@ -164,7 +164,7 @@ h3 {
 }
 
 .main-content p {
-   max-width: 55%;
+   max-width: 60%;
    padding-bottom: 1em;
    padding-left: 1em;
 
@@ -177,7 +177,7 @@ h3 {
   padding-top: 3em;
   padding-left:1em;
   padding-bottom: 3em;
-  height: auto;
+/*  height: auto;*/
  
 }
 
