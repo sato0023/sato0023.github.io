@@ -118,8 +118,8 @@ nav a {
 
 main {
  background-image: url(../img/floor-tile.png);
- background-image; background-repeat;
  font-family: 'Muli', sans-serif;
+ max-width: 100%;
 
 }
 
@@ -153,25 +153,25 @@ h3 {
 }
 
 
-.main-content {
+.main-left {
 
   box-sizing: border-box;
-  width: 60%;
-  float: left;
-  padding: 5px;
+  width: 100%;
+  float: 5px;
   height: auto;
 
 
 }
 
 .main-content p {
+   max-width: 55%;
    padding-bottom: 1em;
    padding-left: 1em;
 
 }
 
 .side-image {
-  float: left;
+  float: right;
   box-sizing: border-box;
   width: 40%;
   padding-top: 3em;
