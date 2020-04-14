@@ -12,7 +12,7 @@ function init() {
    		 		createTableFromJSON();
 		   		 // fadeOut is a jQuery function to fadeOut an element 
    		 		$('.overlay-container').delay(500).fadeOut(500);
-   		 })
+   		 });
 	});
 
 }
@@ -37,7 +37,7 @@ function createTableFromJSON() {
                 "Email": "sam@@gmail.com",
                 "Marks": "90.40"
             }
-        ]
+        ];
 
         // EXTRACT VALUE FOR HTML HEADER. 
         // ('Student ID', 'Name', 'Email' and 'Marks')

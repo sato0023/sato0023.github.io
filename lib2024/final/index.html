@@ -24,34 +24,26 @@
 			</nav>
 		</div>
 	</header>
-		<aside>
-			<img src="img/print.jpg" alt="print">
-		</aside>
-
+		<section class="side-image">
+			<aside class="side-image">
+				<img src="img/print.jpg" alt="print">
+			</aside>
+		</section>
 	<main class="clearfix">	
 		<section class="main-content clearfix">
 				<h2>ABOUT</h2>
 				<p>"Pictures from non-digital cameras must be developed, and that takes specialized equipment, light-sensitive processes and a darkroom. Darkrooms are special rooms where photographers use different lighting to process images. For example, a darkroom can use red light so that the light-sensitive paper they use to develop photographs does not become overexposed.</p>
 				<p>Peering into a darkroom, you will notice a lot of specialized equipment. That’s because developing film requires cutting the film into negatives, which are then projected onto special photographic paper using light and chemicals. That’s an oversimplification of the process, and if you’re investigating how to build your own darkroom, this information is probably nothing you haven’t heard before. You have your camera, your film and your art – now it’s time to get that darkroom..."</p>
 				<p>Join our workshops below!</p>
-		</section>
-<!-- 		<section class="side-bar">
-			<div class="side-image"> -->
-
-<!-- 			</div>
-		</section> -->
-		
+		</section>		
 		<section>
 			<div class="overlay-container">
 				<div class="loader"></div>
 			</div>
 		</section>
-	
-
-	
 		<section class="table-container">
 			<div class="heading-schedule">
-				<p><h2>SCHEDULE</h2></p>
+				<h2>SCHEDULE</h2>
 			</div>
 			<div class="table">
 				<table>
@@ -98,13 +90,9 @@
 				</table>
 			</div>
 		</section>
-
 		<section class="form-container clearfix">
 			<form id="form" action="submit.php" method="post">
-				<h2>EDIT PROFILE</h2>
-				<form action="submit.php" method="post">
-					
-
+				<h2>EDIT PROFILE</h2>					
 					<div class="col-25" id="name-container">
 						<label for="name">Name</label>
 					</div>
@@ -112,35 +100,31 @@
 						<input type="text" name="name" id="name">
 					</div>
 
-
 					<div class="col-25" id="email-container">
 						<label for="email">Email</label>
 					</div>
-					<div class="col-75" id="email-container">
+					<div class="col-75">
 						<input type="email" required name="email" id="email">
 					</div>
-
 
 					<div class="col-25" id="address-container">
 						<label for="address">Address</label>
 					</div>
-					<div class="col-75" id="address-container">
+					<div class="col-75">
 						<input type="text" required name="address" id="address">
 					</div>
-
 
 					<div class="col-25" id="city-container">
 						<label for="city">City</label>
 					</div>
-					<div class="col-75" id="city-container">
+					<div class="col-75">
 						<input type="text" required name="city" id="city">
 					</div>
-
 
 					<div class="col-25" id="dropdown-container">
 						<label for="province">Province</label>
 					</div>
-					<div class="col-75" id="dropdown-container">
+					<div class="col-75">
 						<select name="province" id="province">
 							<option value="ON,">Ontario</option>
 							<option value="QC,">Quebec</option>
@@ -154,16 +138,13 @@
 							<option value="NFLD,">Newfoundland</option>
 						</select>
 					</div>
-
 					<div class="col-25" id="postal-code-container">
 						<label for="postal-code">Postal Code</label>
 					</div>
-					<div class="col-75" id="postal-code-container">
+					<div class="col-75">
 						<input type="text" required="" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="postal-code" id="postal-code" placeholder="A0A 0A0">
 					</div>
-					
 					<button type="submit">Submit</button>
-				
 				</form>
 			</section>
 			<section id="results" class="results">
@@ -172,9 +153,9 @@
 				<i class="far fa-user-circle"></i>
 				<p>Name: <span id="name_result"></span></p>
 				<p>Email: <a href="#" id="email_result"></a></p>
-				<p>Address: <span id="address_result">
+				<p>Address: <span id="address_result"></span>
 					<span id="city_result"></span></p>
-				<p><!-- Province: --> <span id="province_result"></span> <!-- Postal Code: --> <span id="postal-code_result"></span></p>
+				<p><span id="province_result"></span><span id="postal-code_result"></span></p>
 				<i class="far fa-envelope"></i>
 			</div>
 		</section>
